@@ -145,3 +145,26 @@ body { background: var(--white); padding-block: 70px; }
 .blog-card .card-meta-link { color: inherit; font-size: var(--fs-9); font-weight: var(--fw-500); text-transform: uppercase; }
     .blog-card .card-meta-link:is(:hover, :focus) { color: var(--eerie-black); }
 .blog-card .card-title { line-height: 1.4; text-align: center; }
+
+/*Newsletter*/
+.newsletter { padding-bottom: 120px; }
+.newsletter-card { background-color: var(--cultured); background-repeat: no-repeat; background-size: cover; background-position: left; padding: 80px 15px; text-align: center; }
+    .newsletter-card .card-title { color: var(--eerie-black); font-size: var(--fs-3); font-weight: var(--fw-500); line-height: 1.2; margin-bottom: 30px; }
+    .newsletter-card .card-text { margin-bottom: 30px; }
+    .newsletter-card .input-wrapper { position: relative; margin-bottom: 20px; }
+    .newsletter-card .input-field { background: var(--white); height: 60px; padding-inline: 50px 20px; border-radius: 6px; }
+        .newsletter-card .input-wrapper ion-icon { font-size: 18px; position: absolute; top: 50%; left: 25px; transform: translateY(-50%); }
+    .newsletter-card .btn { gap: 10px; }
+
+    /*Footer*/
+.footer-top { background: var(--cultured); padding-block: var(--section-padding); }
+    .footer-top .container { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px; }
+.footer .logo { margin-bottom: 20px; }
+.footer-text { line-height: 1.6; margin-bottom: 20px; }
+.social-list { display: flex; justify-content: flex-start; align-items: center; gap: 10px; }
+.social-link { color: var(--eerie-black); font-size: 18px; width: 35px; height: 35px; border: 1px solid var(--sonic-silver); display: grid; place-items: center; border-radius: 50%; transition: var(--transition-2); }
+    .social-link:is(:hover, :focus) { background: var(--eerie-black); color: var(--white); border-color: var(--eerie-black); }
+.footer-list { width: 100%; }
+.footer-list-title { color: var(--eerie-black); font-size: var(--fs-5); font-weight: var(--fw-600); margin-bottom: 15px; }
+.footer-link { position: relative; color: inherit; padding-block: 5px; }
+    .footer-link:is(:hover, :focus) { color: var(--eerie-black); transform: translateX(15px); }
